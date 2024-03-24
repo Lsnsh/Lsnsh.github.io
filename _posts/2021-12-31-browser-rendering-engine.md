@@ -13,7 +13,7 @@ tags:
 
 话不多说，我们先来看一张图：
 
-![1.png](https://cdn.nlark.com/yuque/0/2021/png/507538/1640953888667-db110c27-15ed-4d28-abd5-65ef1d1a77c3.png#clientId=u3a1e8c0f-dda1-4&from=ui&id=ud7ece984&originHeight=413&originWidth=1150&originalType=binary&ratio=1&size=34226&status=done&style=none&taskId=u9d023765-c186-469c-aa64-53d3ea28aee)<br />具体流程，主要分为以下几个部分：
+![1.png](/assets/images/2021-12-31-browser-rendering-engine/1.png)<br />具体流程，主要分为以下几个部分：
 
 - [HTTP Parse](#http-parse)
 - [HTML Parse](#html-parse)
@@ -215,11 +215,11 @@ const token: {
 
 绘制单个元素：
 
-![2.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/507538/1640953915648-fd5ebe7d-2588-485a-8727-98f5b72be95d.jpeg#clientId=u3a1e8c0f-dda1-4&from=ui&height=450&id=u363fa1c8&originHeight=600&originWidth=800&originalType=binary&ratio=1&size=11039&status=done&style=none&taskId=u086949b4-4f9b-4248-8fae-f59c130ef7e&width=600)
+![2.jpg](/assets/images/2021-12-31-browser-rendering-engine/2.jpg)
 
 最后渲染绘制出 `DOM` 树。
 
-![3.jpg](https://cdn.nlark.com/yuque/0/2021/jpeg/507538/1640953931101-9b3c7ced-a903-41f6-b1f9-e3081b26c0b5.jpeg#clientId=u3a1e8c0f-dda1-4&from=ui&height=450&id=ueb7e4f4f&originHeight=600&originWidth=800&originalType=binary&ratio=1&size=8229&status=done&style=none&taskId=u692f2d4a-1ef7-495a-920f-fc1865b8ab2&width=600)
+![3.jpg](/assets/images/2021-12-31-browser-rendering-engine/3.jpg)
 
 - 实际浏览器中，文字绘制是难点，需要依赖字体库，我们这里忽略
 - 实际浏览器中，还会对一些图层做 `compositing`，我们这里也忽略了
@@ -239,7 +239,7 @@ const token: {
 - `JavaScript` 引擎 
    - 负责提供 `JavaScript` 的运行环境
 
-![1.png](https://cdn.nlark.com/yuque/0/2021/png/507538/1640954048453-b1112a66-f713-4cdc-b9bc-ccb306383080.png#clientId=u3a1e8c0f-dda1-4&from=ui&id=u8252c209&originHeight=413&originWidth=1150&originalType=binary&ratio=1&size=34226&status=done&style=none&taskId=u35927f44-7c3b-4e79-baaf-c0cad6c9ff5)
+![1.png](/assets/images/2021-12-31-browser-rendering-engine/1.png)
 
 回顾开篇看到的那张图，细心的你会疑惑，只提到 `HTML` 和 `CSS`，没提到 `JavaScript`（script 标签、DOM 对象、浏览器事件等）。
 
