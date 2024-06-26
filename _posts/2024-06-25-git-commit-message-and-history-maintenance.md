@@ -31,14 +31,14 @@ Git 提交消息格式的规范，接触到的总体来说主要就两种，第�
 
 ## Git Commit Message Header format
 
-> **Angular Commit Message Format**
+> **Commit Message Format**
 >
 > _This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format]._
 >
 > We have very precise rules over how our Git commit messages must be formatted.
 > This format leads to **easier to read commit history**.
 >
-> --- [Angular Commit Message Format][angular-contributing]
+> --- [Angular CONTRIBUTING][angular-contributing-commit]
 
 `git commit` 时，书写清晰的提交信息，能帮助理解每次改动的目的和影响范围。
 
@@ -148,14 +148,14 @@ git push --force
 
 - [https://github.com/carloscuesta/gitmoji][gitmoji]
 - [https://github.com/vercel/next.js/commits/canary/][nextjs]
-- [https://github.com/angular/angular/blob/main/CONTRIBUTING.md][angular-contributing]
+- [https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit][angular-contributing-commit]
 - [https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#][commit-message-format]
 - [https://www.conventionalcommits.org/zh-hans/][conventionalcommits]
 - [https://git-scm.com/docs][git-docs]
 
 [gitmoji]: https://github.com/carloscuesta/gitmoji
 [nextjs]: https://github.com/vercel/next.js/commits/canary/
-[angular-contributing]: https://github.com/angular/angular/blob/main/CONTRIBUTING.md
+[angular-contributing-commit]: https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [conventionalcommits]: https://www.conventionalcommits.org/zh-hans/
 [git-docs]: https://git-scm.com/docs
