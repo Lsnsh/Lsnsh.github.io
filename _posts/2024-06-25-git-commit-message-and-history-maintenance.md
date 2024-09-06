@@ -109,7 +109,7 @@ git rebase --continue
 
 在个人开发分支上工作时，使用 `git rebase` 可以保持提交历史的简洁；在公共分支或需要保留详细合并信息的情况下，可以使用 `git merge`。
 
-两者在处理冲突时都可能需要手动干预，但 `git rebase` 可能需要在多个提交上重复解决相同的冲突，考虑到处理冲突的繁琐程序，可以随时通过 `git rebase --abort` 中断，改为 `git merge`。
+两者在处理冲突时都需要手动干预，但 `git rebase` 可能需要在多个提交上频繁处理冲突，综合处理冲突的复杂程度，当上下文不足以继续处理冲突时，可以随时通过 `git rebase --abort` 中断，尝试改为 `git merge`。
 
 #### Reset and Revert
 
